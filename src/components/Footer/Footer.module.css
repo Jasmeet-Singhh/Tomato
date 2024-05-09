@@ -50,7 +50,7 @@
 
 .footer-social-icons img:hover {
   background-color: tomato;
-  scale: 1.2;
+  transform: scale(1.2);
 }
 
 .footer hr {
