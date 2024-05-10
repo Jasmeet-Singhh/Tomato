@@ -48,3 +48,55 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 1050px) {
+
+  .header-contents {
+    max-width: 45%;
+    bottom: 22%;
+  }
+
+  .header-contents h2 {
+    font-size: max(4vw, 22px);
+  }
+}
+
+@media (max-width: 750px) {
+  .header {
+    height: 38vw;
+
+  }
+
+  .header-contents {
+    max-width: 45%;
+    bottom: 22%;
+  }
+
+  .header-contents h2 {
+    font-size: max(4vw, 22px);
+  }
+
+  .header-contents p {
+    display: none;
+  }
+
+  .header-contents button {
+    padding: 2vw 4vw;
+  }
+}
+
+@media (max-width: 492px) {
+
+
+  .header-contents h2 {
+    font-size: max(4vw, 16px);
+  }
+
+
+
+  .header-contents button {
+
+    padding: 1vw 2vw;
+    font-size: 60%;
+  }
+}

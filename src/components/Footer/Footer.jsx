@@ -5,7 +5,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className={styles.footer} id={styles.footer}>
+    <div className={styles.footer} id="footer">
       <div className={styles["footer-content"]}>
         <div className={styles["footer-content-left"]}>
           <img src={assets.logo} alt="" />
