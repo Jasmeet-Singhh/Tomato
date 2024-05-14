@@ -4,6 +4,7 @@ import styles from "./Footer.module.css";
 import React from 'react'
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className={styles.footer} id="footer">
       <div className={styles["footer-content"]}>
@@ -35,7 +36,7 @@ const Footer = () => {
       </div>
       <hr />
       <p className={styles["footer-copyright"]}>
-        Copyright 2024 © Tomato.com - All Rights Reserved.
+        Copyright {currentYear} © Tomato.com - All Rights Reserved.
       </p>
     </div>
   )

@@ -100,7 +100,16 @@
   border: none;
   color: white;
   border-radius: 0px 4px 4px 0px;
+  transition: 0.5s;
 }
+
+.cart-promocode-input button:hover {
+
+  transform: scale(1.05);
+
+}
+
+
 
 @media (max-width: 750px) {
   .cart-bottom {
