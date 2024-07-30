@@ -13,9 +13,9 @@ const Cart = () => {
         <div className={styles["cart-items-title"]}>
           <p>Items</p>
           <p>Title</p>
-          <p>Price</p>
+          <p >Price</p>
           <p>Quantity</p>
-          <p>Total</p>
+          <p className={styles["cart-total"]}>Total</p>
           <p>Remove</p>
         </div>
         <br />
@@ -28,8 +28,8 @@ const Cart = () => {
                   <img src={item.image} alt="" />
                   <p>{item.name}</p>
                   <p>${item.price}</p>
-                  <p>{cartItem[item._id]}</p>
-                  <p>${item.price * cartItem[item._id]}</p>
+                  <p className={styles["cart-quantity"]}>{cartItem[item._id]}</p>
+                  <p className={styles["cart-price"]}>${item.price * cartItem[item._id]}</p>
                   <p onClick={() => removeFromCart(item._id)} className={styles.cross}>x</p>
                 </div>
                 <hr />

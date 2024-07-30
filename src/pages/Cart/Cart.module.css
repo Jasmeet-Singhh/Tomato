@@ -109,10 +109,37 @@
 
 }
 
+.cart-price {
+  margin-left: 0.5vw;
+}
+
+.cart-quantity {
+  margin-left: 2vw;
+}
+
+.cross {
+  margin-left: 1.5vw;
+}
+
 
 
 @media (max-width: 750px) {
   .cart-bottom {
     flex-direction: column-reverse;
+  }
+
+
+
+}
+
+@media (max-width: 536px) {
+  .cart-total {
+    margin-left: 1vw;
+  }
+}
+
+@media (max-width: 434px) {
+  .cart-total {
+    margin-left: 1.9vw;
   }
 }
